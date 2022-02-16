@@ -1,1 +1,9 @@
 @import url("https://elixir-ui.netlify.app/Components/elixir.css");
+@import url('/styles/navbar/navbar.css');
+@import url('/styles/flex/flex.css');
+@import url('/styles/section.css');
+
+:root {
+    --overlay-color: #2741561a;
+
+}

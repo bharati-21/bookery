@@ -1,0 +1,27 @@
+.section__head {
+    position: relative;
+    z-index: 1;
+}
+
+.section__head > *{
+    z-index: 1;
+}
+
+.section__head::before {
+    color: var(--overlay-color);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: var(--space-7);
+}
+
+#categories .section__head::before {
+    content: '01';
+}

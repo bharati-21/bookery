@@ -4,15 +4,74 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        meta
         <meta name="description" content="Bookery - One shop stop for your book needs and moods">
         <meta name="keywords" content="Bookery, Book store, Book shop, Book online store, E-commerce book store, Book store">
         <meta name="author" content="Bharati Subramanian">
 
         <title>Bookery | Home</title>
+
         <link rel="stylesheet" href="/styles/styles.css">
     </head>
     <body>
+        <nav class="navbar flex--col flex--align-center flex--justify-center py-1 px-2">
+            <div class="navbar-desktop flex--row flex--align-center flex--justify-between">
+                <h5 class="logo brand-name">
+                    <a href="/" class="btn btn-link btn-primary">
+                        bookery
+                    </a>
+                </h5>
+                <div class="navbar-query input-group input-default input-inline">
+                    <label class="text-label flex--row flex--align-center px-0-75 py-0-25" for="navbar-search-query">
+                        <span class="icon">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
+                    </label>
+                    <span class="text-message mt-0-25"></span>
+                </div>
+                <div class="hamburger">
+                    <button class="btn btn-primary btn-icon">
+                        <span class="icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="navbar-actions flex--row flex--justfiy-center flex--align-center">
+                    <a href="#" class="btn btn-primary btn-text-icon px-0-5">
+                        Login
+                        <span class="icon icon-user">
+                            <i class="fas fa-user"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="btn btn-icon badge-container">
+                        <span class="badge-status badge-notification badge-primary">2</span> 
+                        <span class="icon icon-heart badge-icon">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="btn btn-icon badge-container">
+                        <span class="badge-status badge-notification badge-primary">2</span> 
+                        <span class="icon icon-cart badge-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-mobile display-none">
+                <div class="navbar-query input-group input-default input-inline">
+                    <label class="text-label flex--row flex--align-center px-0-75 py-0-25" for="navbar-search-query">
+                        <span class="icon">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
+                    </label>
+                    <span class="text-message mt-0-25"></span>
+                </div>
+            </div>
+        </nav>
+        <header class="header hero">
+            <img src="/assets/images/home-page/books__hero-img.jpg" alt="Hero Books Image" class="hero-img img-responsive">
+        </header>
         
     </body>
 </html>
