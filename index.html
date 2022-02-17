@@ -20,15 +20,15 @@
                         bookery
                     </a>
                 </h5>
-                <div class="navbar-query input-group input-default input-inline">
+                <form class="navbar-query input-group input-default input-inline">
                     <label class="text-label flex--row flex--align-center px-0-75 py-0-25" for="navbar-search-query">
-                        <span class="icon">
+                        <button type="submit"  class="btn btn-icon">
                             <i class="fas fa-search"></i>
-                        </span>
+                        </button>
                         <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
                     </label>
                     <span class="text-message mt-0-25"></span>
-                </div>
+                </form>
                 <div class="hamburger">
                     <button class="btn btn-primary btn-icon">
                         <span class="icon">
@@ -37,19 +37,18 @@
                     </button>
                 </div>
                 <div class="navbar-actions flex--row flex--justfiy-center flex--align-center">
-                    <a href="#" class="btn btn-primary btn-text-icon px-0-5">
-                        Login
-                        <span class="icon icon-user">
+                    <a href="#" class="btn btn-icon btn-login">
+                        <span class="icon icon-account">
                             <i class="fas fa-user"></i>
                         </span>
                     </a>
-                    <a href="#" class="btn btn-icon badge-container">
+                    <a href="#" class="btn btn-icon badge-container btn-wishlist">
                         <span class="badge-status badge-notification badge-primary">2</span> 
                         <span class="icon icon-heart badge-icon">
-                            <i class="fas fa-heart"></i>
+                            <i class="far fa-heart"></i>
                         </span>
                     </a>
-                    <a href="#" class="btn btn-icon badge-container">
+                    <a href="#" class="btn btn-icon badge-container btn-cart">
                         <span class="badge-status badge-notification badge-primary">2</span> 
                         <span class="icon icon-cart badge-icon">
                             <i class="fas fa-shopping-cart"></i>
@@ -57,21 +56,21 @@
                     </a>
                 </div>
             </div>
-            <div class="navbar-mobile display-none">
-                <div class="navbar-query input-group input-default input-inline">
+            <div class="navbar-mobile">
+                <form class="navbar-query input-group input-default input-inline">
                     <label class="text-label flex--row flex--align-center px-0-75 py-0-25" for="navbar-search-query">
-                        <span class="icon">
+                        <button type="submit"  class="btn btn-icon">
                             <i class="fas fa-search"></i>
-                        </span>
+                        </button>
                         <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
                     </label>
                     <span class="text-message mt-0-25"></span>
-                </div>
+                </form>
             </div>
-        </nav>
+        </nav>   
+            
         <header class="header hero">
-            <img src="/assets/images/home-page/books__hero-img.jpg" alt="Hero Books Image" class="hero-img img-responsive">
+            <img src="/assets/images/home-page/book_hero.jpg" alt="Hero Books Image" class="hero-img img-responsive" />
         </header>
-        
     </body>
 </html>
