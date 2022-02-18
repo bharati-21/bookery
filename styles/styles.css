@@ -6,6 +6,7 @@
 @import url('/styles/header.css');
 @import url('/styles/section.css');
 @import url('/styles/footer.css');
+@import url('/styles/products.css');
 
 :root {
     --overlay-text-color: #2842581a;
@@ -50,4 +51,19 @@ html {
 
 .btn-light.btn-link:hover {
     color: var(--primary-bg-color);
+}
+
+.input-range {
+    width: 100%;
+    accent-color: var(--primary-color);
+}
+
+.input-range:focus {
+    accent-color: var(--primary-active-color);
+}
+
+
+.list-spaced .list-head {
+    background-color: var(--text-color);
+    color: var(--bg-color);
 }
