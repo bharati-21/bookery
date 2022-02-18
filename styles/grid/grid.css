@@ -1,0 +1,33 @@
+
+.grid {
+    display: grid;
+    place-items: center center;
+    place-content: center center;
+}
+.grid-autofit {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); 
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-row-4 {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-row-3 {
+    grid-template-rows: repeat(3, 1fr);
+}
