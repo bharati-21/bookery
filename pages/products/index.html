@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bookery Products - One shop stop for your book needs and moods">
+        <meta name="keywords" content="Bookery, Book store, Book shop, Book online store, E-commerce book store, Book store">
+        <meta name="author" content="Bharati Subramanian">
+
+        <title>Bookery | Products</title>
+
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        <nav class="navbar flex--col flex--align-center flex--justify-center py-1 px-2">
+            <div class="navbar-desktop flex--row flex--align-center flex--justify-between">
+                <h5 class="logo brand-name">
+                    <a href="/" class="btn btn-link btn-primary">
+                        bookery
+                    </a>
+                </h5>
+                <form class="navbar-query input-group input-default input-inline">
+                    <label class="text-label flex--row flex--align-center px-0-75 py-0-25" for="navbar-search-query">
+                        <button type="submit"  class="btn btn-icon">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
+                    </label>
+                    <span class="text-message mt-0-25"></span>
+                </form>
+                <div class="hamburger">
+                    <button class="btn btn-primary btn-icon">
+                        <span class="icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="navbar-actions flex--row flex--justfiy-center flex--align-center">
+                    <a href="#" class="btn btn-icon btn-login">
+                        <span class="icon icon-account">
+                            <i class="fas fa-user"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="btn btn-icon badge-container btn-wishlist">
+                        <span class="badge-status badge-notification badge-primary">2</span> 
+                        <span class="icon icon-heart badge-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="btn btn-icon badge-container btn-cart">
+                        <span class="badge-status badge-notification badge-primary">2</span> 
+                        <span class="icon icon-cart badge-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-mobile">
+                <form class="navbar-query input-group input-default input-inline">
+                    <label class="text-label flex--row flex--align-center px-0-75 py-0-25" for="navbar-search-query">
+                        <button type="submit"  class="btn btn-icon">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
+                    </label>
+                    <span class="text-message mt-0-25"></span>
+                </form>
+            </div>
+        </nav>   
+
+        <main class="products-main my-2 mx-auto py-2 px-5 grid grid-2">
+            <h1 class="main-head text-left mb-2">
+                All products
+            </h1>
+            <aside class="sidebar product-filters pr-3">
+                <h3 class="sidebar-head mb-2">Filters</h3>
+                <div class="filter-category">
+                    <ul class="list list-stacked list-style-none mt-1 mb-1-5">
+                        <h6 class="filter-head list-head p-0-5">Category</h6>
+                        <li class="list-item p-0-25">
+                            <a href="#">Books</a>
+                        </li>
+                        <li class="list-item p-0-25">
+                            <a href="#">Bookworm Essentials</a>
+                        </li>
+                        <li class="list-item p-0-25">
+                            <a href="#">Book Decor</a>
+                        </li>
+                        <li class="list-item p-0-25">
+                            <a href="#">Book Lover's Apparel</a>
+                        </li>
+                        <li class="list-item p-0-25">
+                            <a href="#">Book Accessories</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-category mt-1 mb-2">
+                   <label for="product-price-slider">
+                        <h5 class="filter-head  mb-0-25">Price</h5>
+                        <input type="range" class="input-range" id="product-price-slider" />
+                   </label>
+                    <div class="slider-price-range flex--row flex--justify-between flex--align-center text-small">
+                        <span class="min-price">₹ 100</span>
+                        <span class="min-price">₹ 10,000</span>
+                    </div>
+                </div>
+                <div class="filter-category mt-1 mb-2">
+                    <ul class="list-spaced list-style-none">
+                        <h6 class="filter-head list-head p-0-5 mb-0-5">Genre</h6>
+                        <li class="list-item mb-0-25">
+                            <label for="genre-fiction" class="text-small genre-label flex--row flex--align-center">
+                                <input type="checkbox" class="input-checkbox" id="genre-fiction" />
+                                <span class="genre-text">
+                                    Fiction
+                                </span>
+                            </label>
+                        </li>
+                        <li class="list-item">
+                            <label for="genre-non-fiction" class="text-small genre-label flex--row flex--align-center mb-0-25">
+                                <input type="checkbox" class="input-checkbox" id="genre-non-fiction" />
+                                <span class="genre-text">
+                                    Non-Fiction
+                                </span>
+                            </label>
+                        </li>
+                        <li class="list-item">
+                            <label for="genre-romance" class="text-small genre-label flex--row flex--align-center mb-0-25">
+                                <input type="checkbox" class="input-checkbox" id="genre-romance" />
+                                <span class="genre-text">
+                                    Romance
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-category mt-1 mb-2">
+                    <ul class="list-spaced list-style-none">
+                        <h6 class="filter-head list-head p-0-5 mb-0-5">Ratings</h6>
+                        <li class="list-item mb-0-25">
+                            <label for="label-text" class="text-small rating-label flex--row flex--align-center">
+                                <input type="radio" class="input-radio" 
+                                id="rating-4-above"
+                                name="product-ratings" checked/>
+                                <span class="genre-text">
+                                    4 stars & above
+                                </span>
+                            </label>
+                        </li>
+                        <li class="list-item mb-0-25">
+                            <label for="rating-3-above" class="text-small rating-label flex--row flex--align-center">
+                                <input type="radio" class="input-radio" id="rating-3-above"
+                                name="product-ratings" />
+                                <span class="genre-text">
+                                    3 stars & above
+                                </span>
+                            </label>
+                        </li>
+                        <li class="list-item mb-0-25">
+                            <label for="rating-2-above" class="text-small rating-label flex--row flex--align-center">
+                                <input type="radio" class="input-radio" 
+                                id="rating-2-above" name="product-ratings"/>
+                                <span class="genre-text">
+                                    Ratings 2 & above
+                                </span>
+                            </label>
+                        </li>
+                        <li class="list-item mb-0-25">
+                            <label for="rating-1-above" class="text-small rating-1-above rating-label flex--row flex--align-center">
+                                <input type="radio" class="input-radio" 
+                                id="rating-1-above" name="product-ratings" />
+                                <span class="genre-text">
+                                    Ratings 1 & above
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-category mt-1 mb-2">
+                    <ul class="list-spaced list-style-none">
+                        <h6 class="filter-head list-head p-0-5 mb-0-5">Book Cover</h6>
+                        <li class="list-item mb-0-25">
+                            <label for="cover-paperback" class="text-small book-cover-label flex--row flex--align-center">
+                                <input type="checkbox" class="input-checkbox" id="cover-paperback" />
+                                <span class="genre-text">
+                                    Paperback
+                                </span>
+                            </label>
+                        </li>
+                        <li class="list-item mb-0-25">
+                            <label for="cover-hardcover" class="text-small book-cover-label flex--row flex--align-center">
+                                <input type="checkbox" class="input-checkbox" id="cover-hardcover" />
+                                <span class="genre-text">
+                                    Hardcover
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="product-catalog">
+                <article class="products-container grid grid-autofit">
+                    <div class="card product-card">
+                        <div class="card-header">
+                            <img src="/assets/images/products-page/Atomic-habits-james-clear.jpg" alt="Atomic Habits by James Clear Book Cover">
+                        </div>
+                        <div class="card-main flex--row flex--align-start flex--justify-between px-0-5 pt-1 pb-0-5">
+                            <div class="card-body p-0-25">
+                                <h5 class="card-title">
+                                    Atomic Habits
+                                </h5>
+                                <h6 class="card-subtitle text-sm">
+                                    James Clear
+                                </h6>
+                                <div class="card-content mt-0-75">
+                                    <div class="product-price flex--row flex--align-start flex--justify-between">
+                                        <div class="discounted-price text-lg flex--col flex--align-start flex--justify-start">
+                                            <span class="text-lg">
+                                                ₹ 170<sup>00</sup>
+                                            </span>
+                                        </div>
+                                        <div class="product-original-price text-linethrough error-color">
+                                            ₹ 499<sup class="text-linethrough">00</sup>
+                                        </div>
+                                    </div>
+                                    <div class="discount-percentage success-color text-lg">
+                                        Save 66%
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="card-wishlist-btn p-0-25">
+                                <button class="btn flex--col btn-icon btn-light">
+                                    <span class="icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="card-footer p-0-75">
+                            <button class="btn btn-primary py-0-5 px-0-75 btn-full-width">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="card card-vertical card-wt-dismiss">
+                        <div class="card-main">
+                            <button class="btn btn-primary btn-icon btn-dismiss mx-0-75 my-0-75">
+                                <span class="icon">
+                                    <i class="fas fa-times"></i>
+                                </span>
+                            </button>
+                            <div class="card-header">
+                                <span class="badge badge-primary mx-0-5 my-0-75 py-0-5 px-0-75"
+                                      >Hardcover
+                                </span>
+                                <img src="/Components/assets/hp_philosopher_stone.jpg" alt="Harry Potter and the Philosopher's Stone Cover" class="card-img img-responsive" />
+                            </div>
+                            <div class="card-content">
+                                <div class="card-body py-0-75 px-1">
+                                    <h5 class="card-title">Harry Potter and the Philosopher's Stone</h5>
+                                    <h6 class="card-subtitle mt-0-75">J. K. Rowling</h6>
+                                    <p class="card-description mt-1-5 mb-0-75">
+                                        Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. 
+                                        Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.
+                                    </p>
+                                    <div class="card-price">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <p class="price-original">
+                                            <span class="text-linethrough">
+                                                ₹499.00
+                                            </span>  
+                                            <span class="primary-color percentage-discount">
+                                                (40%)
+                                            </span> 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="overlay p-1">
+                                    <span class="overlay-text p-0-75">
+                                        Out of Stock
+                                    </span>
+                                </div>
+                                <div class="card-footer py-0-75 px-1">
+                                    <button class="btn btn-primary btn-text-icon btn-full-width p-0-5">
+                                        Add to cart
+                                        <span class="icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </button>
+                                    <button class="btn btn-primary btn-outline btn-full-width p-0-5">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>   
+                        </div>
+                    </div> -->
+                    
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </article>
+            </section>
+        </main>
+        <footer class="footer home-footer" id="footer">
+            <div class="primary-footer grid grid-5 py-2-5 px-5">
+                <span class="icon">
+                    <i class="fab fa-cc-visa"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-cc-mastercard"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-paypal"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-amazon-pay"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-google-pay"></i>
+                </span>
+            </div>
+            <div class="secondary-footer px-5 py-2 grid grid-4">
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Customer Center
+                    </p>
+                    <li class="list-item flex--row px-0-5">
+                        <span class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </span> 
+                        Support Helpline
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        <a href="mailto:bookery@elixir.com" class="btn btn-link btn-light">
+                            <span class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            Email Us
+                        </a>
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        Weekdays 09:30 - 18:00
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        Weekends 11:00 - 16:00
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        Holdays: Sat, Sun, National Holidays
+                    </li>  
+                </ul>
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Service Hub and Store
+                    </p>
+                    <li class="list-item flex--row px-0-5">
+                        <address>
+                            Royal Industrial Estate, <br />
+                            Opposite Robin & Co., <br />
+                            Lokhandwala, Andheri(W), <br />
+                            Mumbai, India - 4000053
+                        </address>
+                    </li>
+                </ul>
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Quick Links
+                    </p>
+                    <li class="list-item px-0-5">
+                        <a href="/" class="btn btn-link btn-light text-sm pb-0-25 brand logo">bookery</a>
+                    </li>
+                    <li class="list-item px-0-5 text-xs">
+                        <ul class="list list-inline list-style-none">
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">About Us</a> 
+                            </li>
+                            <li class="list-item gray-color mx-0-25">.</li>
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">Products</a>
+                            </li>
+                            <li class="list-item gray-color mx-0-25">.</li>
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">My orders</a>
+                            </li>
+                            <li class="list-item gray-color mx-0-25">.</li>
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">Cart</a>
+                            </li>
+
+                        </ul>
+                        
+                    </li>
+                </ul>
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Social Media
+                    </p>
+                    <li class="list-item">
+                        <div class="social-links flex--row">
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-twitter"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-instagram"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-facebook"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-youtube"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mt-1 pt-2 gray-color copyright-section span-cols text-sm text-center">
+                    &copy; elixir designs 2022
+                </div>
+            </div>           
+        </footer>
+    </body>
+</html>
