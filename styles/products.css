@@ -1,0 +1,83 @@
+.products-main {
+    align-items: start;
+    justify-items: start;
+    gap: var(--space-1);
+}
+
+.main-head {
+    grid-column: 1/-1;
+    width: 100%;
+}
+
+.product-filters {
+    border-right: 2px solid var(--primary-bg-color);
+}
+
+.product-catalog {
+    justify-self: center;
+}
+
+.products-container {
+    gap: var(--space-2);
+}
+
+.product-card .card-header {
+    width: 250px;
+}
+
+.card-body {
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.card-wishlist-btn  {
+    width: 2rem;
+    height: 2rem;
+    line-height: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wishlist-btn > *{
+    line-height: unset;
+}
+
+.card-wishlist-btn:hover {
+    background-color: #ff6058;
+    border-radius: 50%;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.card-wishlist-btn:hover .icon {
+    color: var(--bg-card-color);
+}
+
+
+.genre-label, .rating-label, .book-cover-label {
+    width: 100%;
+    gap: var(--space-0-5);
+}
+
+.card-content, .product-price{
+    width: 100%;
+}
+
+.product-card .card-content sup {
+    position: relative;
+    top: 4px;
+    margin-left: var(--space-0-25);
+    display: inline-block;
+}
+
+.discounted-price, .discount-percentage {   
+    font-weight: var(--weight-sbold);
+}
+
+.discounted-price sup {
+    top: 5px; 
+}
