@@ -8,7 +8,8 @@
 @import url('/styles/footer.css');
 
 :root {
-    --overlay-color: #2842581a;
+    --overlay-text-color: #2842581a;
+    --overlay-bg-color: rgba(0,0,0,0.5);
     --secondary-color: #274156;
     --secondary-active-color: #1e3344;
 }
@@ -31,4 +32,20 @@ html {
 
 .btn-light.btn-link:hover {
     color: var(--primary-bg-color);
+}
+
+.text-light {
+    color: var(--bg-card-color);
+}
+
+.btn-light {
+    background-color: var(--bg-card-color);
+    border-color: var(--bg-card-color);
+    color: var(--text-color)
+}
+
+.btn-light:hover {
+    background-color: var(--primary-bg-color);
+    border-color: var(--primary-bg-color);
+    color: var(--text-color);
 }
