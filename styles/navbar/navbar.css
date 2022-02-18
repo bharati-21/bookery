@@ -1,0 +1,96 @@
+.navbar {
+    gap: var(--space-1);
+}
+
+.navbar  > *{
+    line-height: initial;
+}
+
+.navbar-desktop {
+    width: 100%;
+}
+
+.navbar-mobile,
+.hamburger {
+    display: none;
+}
+
+.navbar-links li {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+}
+
+.navbar-query .input-text {
+    flex: 1;
+}
+
+.navbar-query .text-label {
+    border-radius: var(--space-2);
+    -webkit-border-radius: var(--space-2);
+    -moz-border-radius: var(--space-2);
+    -ms-border-radius: var(--space-2);
+    -o-border-radius: var(--space-2);
+}
+
+.text-label .btn {
+    font-size: var(--text-reg);
+}
+
+.input-text {
+    font-size: var(--text-xs);
+    order: -1;
+}
+
+.navbar-query {
+    flex-basis: 30%;
+}
+
+.navbar-actions {
+    gap: var(--space-1);
+}
+
+.navbar-actions .icon {
+    font-size: var(--text-md);
+}
+
+.btn.btn-wishlist:hover .icon {
+    color: var(--error-color);
+}
+
+.btn.btn-login:hover .icon {
+    color: var(--primary-active-color);
+}
+
+.btn.btn-cart:hover .icon {
+    color: var(--secondary-active-color);
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar-actions {
+        position: absolute;
+        transform: translateY(-1000%);
+        -webkit-transform: translateY(-1000%);
+        -moz-transform: translateY(-1000%);
+        -ms-transform: translateY(-1000%);
+        -o-transform: translateY(-1000%);
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .navbar-desktop .navbar-query {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-query {
+        width: 100%;
+    }
+}
