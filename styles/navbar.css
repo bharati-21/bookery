@@ -25,11 +25,11 @@
 }
 
 .navbar-query .text-label {
-    border-radius: var(--space-2);
-    -webkit-border-radius: var(--space-2);
-    -moz-border-radius: var(--space-2);
-    -ms-border-radius: var(--space-2);
-    -o-border-radius: var(--space-2);
+    border-radius: var(--br-4);
+    -webkit-border-radius: var(--br-4);
+    -moz-border-radius: var(--br-4);
+    -ms-border-radius: var(--br-4);
+    -o-border-radius: var(--br-4);
 }
 
 .text-label .btn {
@@ -42,7 +42,7 @@
 }
 
 .navbar-query {
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 
 .navbar-actions {
