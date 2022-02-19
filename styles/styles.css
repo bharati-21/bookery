@@ -9,6 +9,7 @@
 @import url('/styles/header.css');
 @import url('/styles/section.css');
 @import url('/styles/footer.css');
+@import url('/styles/products.css');
 
 /* Products page */
 @import url('/styles/products.css');
