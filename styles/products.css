@@ -4,6 +4,7 @@
     gap: var(--space-2);
 
     --card-border-color: #9e9eff;
+    --wishlist-bg: #ff6058;
 }
 
 .main-head {
@@ -87,7 +88,7 @@
     height: var(--space-2);
     
     display: flex;
-    background-color: #ff6058;
+    background-color: var(--wishlist-bg);
    
     color: var(--bg-card-color);
     border-radius: var(--br-50);
@@ -109,21 +110,9 @@
     color: var(--bg-card-color);
 }
 
-
-.card-wishlist-btn:hover {
-    background-color: #ff6058;
-    border-radius: 50%;
-    
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
 .card-wishlist-btn:hover .icon {
     color: var(--bg-card-color);
 }
-
 
 .genre-label, .rating-label, .book-cover-label {
     width: 100%;
