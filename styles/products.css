@@ -2,6 +2,8 @@
     align-items: start;
     justify-content: center;
     gap: var(--space-2);
+
+    --card-border-color: #9e9eff;
 }
 
 .main-head {
@@ -55,7 +57,7 @@
     -ms-border-radius: var(--br-4);
     -o-border-radius: var(--br-4);
     max-width: 250px;
-    border: 1px solid #9e9eff;
+    border: 1px solid var(--card-border-color);
 }
 
 .product-card:hover {
