@@ -13,13 +13,13 @@
         <link rel="stylesheet" href="/styles/styles.css">
     </head>
     <body>
-        <nav class="navbar flex--col flex--align-center flex--justify-center py-1 px-2">
+        <nav class="navbar flex--col flex--align-center flex--justify-center py-1 px-3">
             <div class="navbar-desktop flex--row flex--align-center flex--justify-between">
-                <h5 class="logo brand-name">
+                <h3 class="logo brand-name">
                     <a href="/" class="btn btn-link btn-primary">
                         bookery
                     </a>
-                </h5>
+                </h3>
                 <form class="navbar-query input-group input-default input-inline">
                     <label class="text-label flex--row flex--align-center px-0-75 py-0-25" for="navbar-search-query">
                         <button type="submit"  class="btn btn-icon">
@@ -69,47 +69,48 @@
             </div>
         </nav>   
 
-        <main class="products-main my-2 mx-auto py-2 px-5 grid grid-2">
-            <h1 class="main-head text-left mb-2">
+        <main class="products-main my-2 mx-auto py-2 px-3 grid grid-2">
+            <h2 class="main-head text-left mb-2 py-0-25">
                 All products
-            </h1>
-            <aside class="sidebar product-filters pr-3">
-                <h3 class="sidebar-head mb-2">Filters</h3>
-                <div class="filter-category">
-                    <ul class="list list-stacked list-style-none mt-1 mb-1-5">
-                        <h6 class="filter-head list-head p-0-5">Category</h6>
+            </h2>
+            <aside class="sidebar product-filters py-1-5 px-1">
+                <h5 class="sidebar-head mb-1-5">Filters</h5>
+                <div class="filter-category filter">
+                    <ul class="list list-stacked list-style-none mt-1 mb-1-5 filter-list">
+                        <h6 class="filter-head text-reg list-head px-0-5 py-0-25">Category</h6>
                         <li class="list-item p-0-25">
-                            <a href="#">Books</a>
+                            <a href="#" class="text-sm">Books</a>
                         </li>
                         <li class="list-item p-0-25">
-                            <a href="#">Bookworm Essentials</a>
+                            <a href="#" class="text-sm">Bookworm Essentials</a>
                         </li>
                         <li class="list-item p-0-25">
-                            <a href="#">Book Decor</a>
+                            <a href="#" class="text-sm">Book Decor</a>
                         </li>
                         <li class="list-item p-0-25">
-                            <a href="#">Book Lover's Apparel</a>
+                            <a href="#" class="text-sm">Book Lover's Apparel</a>
                         </li>
                         <li class="list-item p-0-25">
-                            <a href="#">Book Accessories</a>
+                            <a href="#" class="text-sm">Book Accessories</a>
                         </li>
                     </ul>
                 </div>
-                <div class="filter-category mt-1 mb-2">
-                   <label for="product-price-slider">
-                        <h5 class="filter-head  mb-0-25">Price</h5>
-                        <input type="range" class="input-range" id="product-price-slider" />
-                   </label>
-                    <div class="slider-price-range flex--row flex--justify-between flex--align-center text-small">
-                        <span class="min-price">₹ 100</span>
-                        <span class="min-price">₹ 10,000</span>
-                    </div>
-                </div>
+                <div class="filter-price mt-1 mb-2 filter">
+                    <ul class="list list-stacked list-style-none mt-1 mb-1-5 filter-list">
+                        <label for="product-price-slider">          <h6 class="filter-head
+                            text-reg list-head px-0-5 py-0-25 my-0-5">Price</h6>
+                            <input type="range" class="input-range" id="product-price-slider" />
+                        </label>
+                        <div class="slider-price-range flex--row flex--justify-between flex--align-center">
+                            <span class="text-sm min-price">₹ 100</span>
+                            <span class="text-sm min-price">₹ 10,000</span>
+                        </div>
+                    </ul>   
                 <div class="filter-category mt-1 mb-2">
                     <ul class="list-spaced list-style-none">
-                        <h6 class="filter-head list-head p-0-5 mb-0-5">Genre</h6>
+                        <h6 class="filter-head text-reg list-head px-0-5 py-0-25 my-0-5 mb-0-5">Genre</h6>
                         <li class="list-item mb-0-25">
-                            <label for="genre-fiction" class="text-small genre-label flex--row flex--align-center">
+                            <label for="genre-fiction" class="text-sm genre-label flex--row flex--align-center">
                                 <input type="checkbox" class="input-checkbox" id="genre-fiction" />
                                 <span class="genre-text">
                                     Fiction
@@ -117,7 +118,7 @@
                             </label>
                         </li>
                         <li class="list-item">
-                            <label for="genre-non-fiction" class="text-small genre-label flex--row flex--align-center mb-0-25">
+                            <label for="genre-non-fiction" class="text-sm genre-label flex--row flex--align-center mb-0-25">
                                 <input type="checkbox" class="input-checkbox" id="genre-non-fiction" />
                                 <span class="genre-text">
                                     Non-Fiction
@@ -125,7 +126,7 @@
                             </label>
                         </li>
                         <li class="list-item">
-                            <label for="genre-romance" class="text-small genre-label flex--row flex--align-center mb-0-25">
+                            <label for="genre-romance" class="text-sm genre-label flex--row flex--align-center mb-0-25">
                                 <input type="checkbox" class="input-checkbox" id="genre-romance" />
                                 <span class="genre-text">
                                     Romance
@@ -136,9 +137,9 @@
                 </div>
                 <div class="filter-category mt-1 mb-2">
                     <ul class="list-spaced list-style-none">
-                        <h6 class="filter-head list-head p-0-5 mb-0-5">Ratings</h6>
+                        <h6 class="filter-head text-reg list-head px-0-5 py-0-25 my-0-5 mb-0-5">Ratings</h6>
                         <li class="list-item mb-0-25">
-                            <label for="label-text" class="text-small rating-label flex--row flex--align-center">
+                            <label for="label-text" class="text-sm rating-label flex--row flex--align-center">
                                 <input type="radio" class="input-radio" 
                                 id="rating-4-above"
                                 name="product-ratings" checked/>
@@ -148,7 +149,7 @@
                             </label>
                         </li>
                         <li class="list-item mb-0-25">
-                            <label for="rating-3-above" class="text-small rating-label flex--row flex--align-center">
+                            <label for="rating-3-above" class="text-sm rating-label flex--row flex--align-center">
                                 <input type="radio" class="input-radio" id="rating-3-above"
                                 name="product-ratings" />
                                 <span class="genre-text">
@@ -157,7 +158,7 @@
                             </label>
                         </li>
                         <li class="list-item mb-0-25">
-                            <label for="rating-2-above" class="text-small rating-label flex--row flex--align-center">
+                            <label for="rating-2-above" class="text-sm rating-label flex--row flex--align-center">
                                 <input type="radio" class="input-radio" 
                                 id="rating-2-above" name="product-ratings"/>
                                 <span class="genre-text">
@@ -166,7 +167,7 @@
                             </label>
                         </li>
                         <li class="list-item mb-0-25">
-                            <label for="rating-1-above" class="text-small rating-1-above rating-label flex--row flex--align-center">
+                            <label for="rating-1-above" class="text-sm rating-1-above rating-label flex--row flex--align-center">
                                 <input type="radio" class="input-radio" 
                                 id="rating-1-above" name="product-ratings" />
                                 <span class="genre-text">
@@ -178,9 +179,9 @@
                 </div>
                 <div class="filter-category mt-1 mb-2">
                     <ul class="list-spaced list-style-none">
-                        <h6 class="filter-head list-head p-0-5 mb-0-5">Book Cover</h6>
+                        <h6 class="filter-head text-reg list-head px-0-5 py-0-25 mb-0-5">Book Cover</h6>
                         <li class="list-item mb-0-25">
-                            <label for="cover-paperback" class="text-small book-cover-label flex--row flex--align-center">
+                            <label for="cover-paperback" class="text-sm book-cover-label flex--row flex--align-center">
                                 <input type="checkbox" class="input-checkbox" id="cover-paperback" />
                                 <span class="genre-text">
                                     Paperback
@@ -188,7 +189,7 @@
                             </label>
                         </li>
                         <li class="list-item mb-0-25">
-                            <label for="cover-hardcover" class="text-small book-cover-label flex--row flex--align-center">
+                            <label for="cover-hardcover" class="text-sm book-cover-label flex--row flex--align-center">
                                 <input type="checkbox" class="input-checkbox" id="cover-hardcover" />
                                 <span class="genre-text">
                                     Hardcover
@@ -200,107 +201,377 @@
             </aside>
             <section class="product-catalog">
                 <article class="products-container grid grid-autofit">
-                    <div class="card product-card">
-                        <div class="card-header">
-                            <img src="/assets/images/products-page/Atomic-habits-james-clear.jpg" alt="Atomic Habits by James Clear Book Cover">
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Atomic-habits-james-clear.jpg" alt="Atomic habits by James Clear" />
                         </div>
-                        <div class="card-main flex--row flex--align-start flex--justify-between px-0-5 pt-1 pb-0-5">
-                            <div class="card-body p-0-25">
-                                <h5 class="card-title">
-                                    Atomic Habits
-                                </h5>
-                                <h6 class="card-subtitle text-sm">
-                                    James Clear
-                                </h6>
-                                <div class="card-content mt-0-75">
-                                    <div class="product-price flex--row flex--align-start flex--justify-between">
-                                        <div class="discounted-price text-lg flex--col flex--align-start flex--justify-start">
-                                            <span class="text-lg">
-                                                ₹ 170<sup>00</sup>
-                                            </span>
-                                        </div>
-                                        <div class="product-original-price text-linethrough error-color">
-                                            ₹ 499<sup class="text-linethrough">00</sup>
-                                        </div>
-                                    </div>
-                                    <div class="discount-percentage success-color text-lg">
-                                        Save 66%
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="card-wishlist-btn p-0-25">
-                                <button class="btn flex--col btn-icon btn-light">
-                                    <span class="icon">
-                                        <i class="far fa-heart"></i>
-                                    </span>
-                                </button>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer p-0-75">
-                            <button class="btn btn-primary py-0-5 px-0-75 btn-full-width">
-                                Add to cart
-                            </button>
-                        </div>
-                    </div>
-                    <!-- <div class="card card-vertical card-wt-dismiss">
-                        <div class="card-main">
-                            <button class="btn btn-primary btn-icon btn-dismiss mx-0-75 my-0-75">
-                                <span class="icon">
-                                    <i class="fas fa-times"></i>
-                                </span>
-                            </button>
-                            <div class="card-header">
-                                <span class="badge badge-primary mx-0-5 my-0-75 py-0-5 px-0-75"
-                                      >Hardcover
-                                </span>
-                                <img src="/Components/assets/hp_philosopher_stone.jpg" alt="Harry Potter and the Philosopher's Stone Cover" class="card-img img-responsive" />
-                            </div>
-                            <div class="card-content">
-                                <div class="card-body py-0-75 px-1">
-                                    <h5 class="card-title">Harry Potter and the Philosopher's Stone</h5>
-                                    <h6 class="card-subtitle mt-0-75">J. K. Rowling</h6>
-                                    <p class="card-description mt-1-5 mb-0-75">
-                                        Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. 
-                                        Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.
-                                    </p>
-                                    <div class="card-price">
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <p class="card-title text-reg">Atomic Habits</p>
+                                <p class="text-xs card-subtitle">James Clear</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
                                         <p class="price-discounted">
                                             ₹299.00
                                         </p>
-                                        <p class="price-original">
-                                            <span class="text-linethrough">
-                                                ₹499.00
-                                            </span>  
-                                            <span class="primary-color percentage-discount">
-                                                (40%)
-                                            </span> 
-                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
                                     </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
                                 </div>
-                                <div class="overlay p-1">
-                                    <span class="overlay-text p-0-75">
-                                        Out of Stock
-                                    </span>
-                                </div>
-                                <div class="card-footer py-0-75 px-1">
-                                    <button class="btn btn-primary btn-text-icon btn-full-width p-0-5">
-                                        Add to cart
-                                        <span class="icon">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </span>
-                                    </button>
-                                    <button class="btn btn-primary btn-outline btn-full-width p-0-5">
-                                        Buy Now
-                                    </button>
-                                </div>
-                            </div>   
+                            </div>            
                         </div>
-                    </div> -->
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Man-Called-Ove-Fredrick-Backman.jpg" alt="Man Called Ove by Fredrick Backman" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <h6 class="text-reg card-title">A Man Called Ove</h6>
+                                <p class="text-xs card-subtitle">Fredrick Backman</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>                    
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Love-Hypothesis-Ali-Hazelwood.jpg" alt="Love Hypothesis by Ali Hazelwood" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <h6 class="text-reg card-title">The Love Hypothesis</h6>
+                                <p class="text-xs card-subtitle">Book Lover's Apparel</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
                     
-                    <div class="card"></div>
-                    <div class="card"></div>
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Atomic-habits-james-clear.jpg" alt="Atomic habits by James Clear" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <p class="card-title text-reg">Atomic Habits</p>
+                                <p class="text-xs card-subtitle">James Clear</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Man-Called-Ove-Fredrick-Backman.jpg" alt="Man Called Ove by Fredrick Backman" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <h6 class="text-reg card-title">A Man Called Ove</h6>
+                                <p class="text-xs card-subtitle">Fredrick Backman</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>                    
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Love-Hypothesis-Ali-Hazelwood.jpg" alt="Love Hypothesis by Ali Hazelwood" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <h6 class="text-reg card-title">The Love Hypothesis</h6>
+                                <p class="text-xs card-subtitle">Book Lover's Apparel</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Atomic-habits-james-clear.jpg" alt="Atomic habits by James Clear" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <p class="card-title text-reg">Atomic Habits</p>
+                                <p class="text-xs card-subtitle">James Clear</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Man-Called-Ove-Fredrick-Backman.jpg" alt="Man Called Ove by Fredrick Backman" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <h6 class="text-reg card-title">A Man Called Ove</h6>
+                                <p class="text-xs card-subtitle">Fredrick Backman</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>                    
+                    <div class="product-card card card-vertical card-wt-dismiss">
+                        <button class="btn btn-primary btn-icon btn-dismiss btn-card-wishlist m-0-75">
+                            <span class="icon">
+                                <i class="far fa-heart text-reg"></i>
+                            </span>
+                        </button>
+                        <div class="card-header p-1">
+                            <img src="/assets/images/products-page/Love-Hypothesis-Ali-Hazelwood.jpg" alt="Love Hypothesis by Ali Hazelwood" />
+                        </div>
+                        <div class="card-body px-0-75">
+                            <div class="card-description my-0-25">
+                                <h6 class="text-reg card-title">The Love Hypothesis</h6>
+                                <p class="text-xs card-subtitle">Book Lover's Apparel</p>
+                            </div> 
+                            <div class="card-content my-0-5">
+                                <div class="card-price flex--row flex--align-start flex--justify-between">
+                                    <div class="discounted-pric flex--col">
+                                        <p class="price-discounted">
+                                            ₹299.00
+                                        </p>
+                                        <span class="success-color percentage-discount">
+                                            Save 40%
+                                        </span> 
+                                    </div>
+                                    <p class="price-original">
+                                        <span class="text-linethrough error-color">
+                                            ₹499.00
+                                        </span>   
+                                    </p>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card-footer mt-1 mb-0-75  px-0-75">
+                            <button class="btn btn-primary btn-text-icon btn-full-width p-0-25">
+                                Add to cart
+                                <span class="icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
                 </article>
             </section>
         </main>
@@ -429,3 +700,49 @@
         </footer>
     </body>
 </html>
+
+
+<!-- <div class="card product-card">
+                            <div class="card-header p-1">
+                                <img src="/assets/images/products-page/Atomic-habits-james-clear.jpg" alt="Atomic Habits by James Clear Book Cover">
+                            </div>
+                        <div class="card-main flex--row flex--align-start flex--justify-between px-0-5 pt-1 pb-0-5">
+                            <div class="card-body p-0-25">
+                                <h6 class="card-title">
+                                    Atomic Habits
+                                </h6>
+                                <p class="card-subtitle text-sm">
+                                    James Clear
+                                </p>
+                                <div class="card-content mt-0-75">
+                                    <div class="product-price flex--row flex--align-start flex--justify-between">
+                                        <div class="discounted-price text-lg flex--col flex--align-start flex--justify-start">
+                                            <span class="text-lg">
+                                                ₹ 170<sup>00</sup>
+                                            </span>
+                                        </div>
+                                        <div class="product-original-price text-linethrough error-color">
+                                            ₹ 499<sup class="text-linethrough">00</sup>
+                                        </div>
+                                    </div>
+                                    <div class="discount-percentage success-color text-lg">
+                                        Save 66%
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="card-wishlist-btn p-0-25">
+                                <button class="btn flex--col btn-icon btn-light">
+                                    <span class="icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="card-footer p-0-75">
+                            <button class="btn btn-primary py-0-5 px-0-75 btn-full-width">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div> -->

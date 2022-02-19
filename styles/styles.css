@@ -58,12 +58,15 @@ html {
     accent-color: var(--primary-color);
 }
 
-.input-range:focus {
+.input-range:focus, .input-range:hover {
     accent-color: var(--primary-active-color);
 }
-
 
 .list-spaced .list-head {
     background-color: var(--text-color);
     color: var(--bg-color);
+}
+
+.text-xs {
+    font-size: 0.65rem;
 }
