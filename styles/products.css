@@ -3,13 +3,15 @@
     justify-content: center;
     gap: var(--space-2);
 
-    --card-border-color: #9e9eff;
     --wishlist-bg: #ff6058;
 }
 
 .main-head {
     grid-column: 1/-1;
     width: 100%;
+}
+
+.products-main .main-head {
     border-bottom: 2px solid var(--light-gray-color);
 }
 
