@@ -53,7 +53,6 @@
 }
 
 .card {
-    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     position: relative;
     border: none;
     border-radius: var(--br-4);
@@ -61,13 +60,17 @@
     -moz-border-radius: var(--br-4);
     -ms-border-radius: var(--br-4);
     -o-border-radius: var(--br-4);
+}
+
+.category-container .card {
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     -moz-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     -ms-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     -o-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.card::before {
+.category-container .card::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -83,7 +86,7 @@
     -o-border-radius: inherit;
 }
 
-.card-content {
+.category-container .card-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -95,7 +98,7 @@
     -o-transform: translate(-50%, -50%);
 }
 
-.card:hover {
+.category-container .card:hover {
     transform: scale(0.95);
     -webkit-transform: scale(0.95);
     -moz-transform: scale(0.95);
