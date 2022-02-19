@@ -16,7 +16,7 @@
 .secondary-footer {
     background-color: var(--secondary-active-color);
     gap: var(--space-1) var(--space-2);
-    align-items: start;
+    place-items: start;
     place-content: center center;
 }
 
