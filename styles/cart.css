@@ -10,7 +10,6 @@
 
 .shelf-products {
     width: 100%;
-    --bg-horizontal-card: #F0f0f0;
     gap: var(--space-2);
 }
 
