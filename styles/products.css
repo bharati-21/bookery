@@ -2,8 +2,6 @@
     align-items: start;
     justify-content: center;
     gap: var(--space-2);
-
-    --wishlist-bg: #ff6058;
 }
 
 .main-head {
@@ -54,6 +52,7 @@
 }
 
 .product-card {
+    --wishlist-bg: #ff6058;
     border-radius: var(--br-4);
     -webkit-border-radius: var(--br-4);
     -moz-border-radius: var(--br-4);
