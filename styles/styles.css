@@ -17,12 +17,16 @@
 /* Cart page */
 @import url('/styles/cart.css');
 
+/* Auth CSS */
+@import url('/styles/auth.css');
+
 :root {
     --overlay-text-color: #2842581a;
     --overlay-bg-color: rgba(0,0,0,0.5);
     --secondary-color: #274156;
     --secondary-active-color: #1e3344;
     --card-border-color: #9e9eff;
+    --bg-horizontal-card: #F0f0f0;
 }
 
 html {
