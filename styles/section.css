@@ -22,7 +22,7 @@
     content: '01';
 }
 
-#best-sellers .section__head::before {
+#top-picks .section__head::before {
     content: '02';
 }
 
