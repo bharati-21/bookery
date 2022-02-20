@@ -2,6 +2,19 @@
     min-height: 90vh;
 }
 
+.auth-container.logout-container .auth-head {
+    line-height: 0;
+}
+
+.auth-container.logout-container .auth-head-text {
+    line-height: 1.2;
+    font-variant: small-caps;
+}
+
+.auth-container.logout-container .auth-head-icon {
+    font-size: var(--space-3);
+}
+
 .auth-wrapper {
     width: 100%;
 }
@@ -15,6 +28,11 @@
 
 .auth-container.signup-container {
     max-width: 500px;
+}
+
+.auth-container.logout-container {
+    height: 300px;
+    max-width: 600px;
 }
 
 .auth-fields .input-group {
@@ -60,4 +78,11 @@
 
 .psd-mgmt-container label:hover {
     color: var(--primary-color);
+}
+
+@media screen and (max-width: 480px) {
+    .auth-container.logout-container .auth-head {
+        max-width: min-content;
+        margin: 0 auto;
+    }
 }
