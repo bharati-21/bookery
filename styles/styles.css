@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url("https://elixir-ui.netlify.app/Components/elixir.css");
+
+/* CL styles */
 @import url('/styles/flex/flex.css');
 @import url('/styles/grid/grid.css');
-@import url('/styles/navbar/navbar.css');
+
+@import url('/styles/navbar.css');
 @import url('/styles/header.css');
 @import url('/styles/section.css');
 @import url('/styles/footer.css');
 @import url('/styles/products.css');
+
+/* Products page */
+@import url('/styles/products.css');
+
+/* Cart page */
+@import url('/styles/cart.css');
 
 :root {
     --overlay-text-color: #2842581a;
     --overlay-bg-color: rgba(0,0,0,0.5);
     --secondary-color: #274156;
     --secondary-active-color: #1e3344;
+    --card-border-color: #9e9eff;
 }
 
 html {
@@ -69,4 +79,12 @@ html {
 
 .text-xs {
     font-size: 0.65rem;
+}
+
+.gray-color {
+    color: var(--gray);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }
