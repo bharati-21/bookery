@@ -80,15 +80,3 @@ html {
     background-color: var(--text-color);
     color: var(--bg-color);
 }
-
-.text-xs {
-    font-size: 0.65rem;
-}
-
-.gray-color {
-    color: var(--gray);
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}

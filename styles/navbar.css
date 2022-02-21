@@ -1,5 +1,6 @@
 .navbar {
     gap: var(--space-1);
+    min-height: 8vh;
 }
 
 .navbar  > *{
