@@ -80,3 +80,11 @@ html {
     background-color: var(--text-color);
     color: var(--bg-color);
 }
+
+.hero-head {
+    line-height: 1.2;
+}
+
+.hero-sub-head {
+    line-height: 1.2;
+}
