@@ -41,10 +41,12 @@
     Bookery is an e-commerce store that satisfies your bookish needs and moods. 
 </p>
 <br />
-Visit [Elixir UI Documentation Website](https://elixir-ui.netlify.app/) and buy your favorite books today! We serve all your book needs with simple, well strcutured website that offers books across 20+ genres. Check out the popular genres, hot picks of the month and get great deals with books delivered within 24 hours! Grab the best deal for your book. 
+Visit <a href="https://elixir-ui.netlify.app/">Elixir UI Documentation Website]</a> and buy your favorite books today! We serve all your book needs with simple, well strcutured website that offers books across 20+ genres. Check out the popular genres, hot picks of the month and get great deals with books delivered within 24 hours! Grab the best deal for your book. 
 
 <br />
+<br />
 <!-- FEATURES -->
+
 ## **FEATURES (UI)**
 
 - Home page
@@ -60,15 +62,19 @@ Visit [Elixir UI Documentation Website](https://elixir-ui.netlify.app/) and buy 
   - Sign up Page
   - Logout Page
 
-
+<br />
 <br />
 <!-- BUILT WITH -->
+
 ## **Technology/ Languages Used**
 
 - HTML
 - CSS
 
 <br />
+<br />
+<!-- HOW TO RUN LOCALLY -->
+
 ## **How to Run locally**:
 - To run this project locally, use the following command in your CLI:
 
@@ -78,7 +84,9 @@ Visit [Elixir UI Documentation Website](https://elixir-ui.netlify.app/) and buy 
 - Open your favorite code editor and run locally!
 
 <br />
+<br />
 <!-- CONTRIBUTING -->
+
 ## **How to Contribute**
 
 Contributions and ideas to this library are more than welcome! <br />
@@ -93,8 +101,10 @@ If you want to contribute or have ideas for this project, just fork the repo and
 6. Open and Create a PR
 
 <br />
-## **Social Links**
+<br />
 <!-- SOCIAL LINKS -->
+
+## **Social Links**
 Let's connect and talk about development, music, books and much more 🌠! 
 > [GitHub Profile](https://github.com/bharati-21) &nbsp;&middot;&nbsp; 
 > [LinkedIn Profile](https://www.linkedin.com/in/bharati-subramanian-29734b152/) &nbsp;&middot;&nbsp;
