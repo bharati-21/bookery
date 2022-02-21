@@ -80,6 +80,25 @@
     color: var(--primary-color);
 }
 
+.password-input-toggler {
+    position: relative;
+}
+
+.password-input-toggler .input-text {
+    width: 100%;
+}
+
+.icon-show-psd {
+    position: absolute;
+    top: 50%;
+    right: var(--space-0-25);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 480px) {
     .auth-container.logout-container .auth-head {
         max-width: min-content;

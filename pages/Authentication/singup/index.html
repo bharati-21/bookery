@@ -82,9 +82,9 @@
                     </h3>
                     <div class="auth-fields px-1">
                         <div class="input-group input-default mt-1-5 mx-auto">
-                            <label class="text-label text-reg flex--col mx-auto" for="input-login-fname">
+                            <label class="text-label text-reg flex--col mx-auto" for="input-signup-fname">
                                 First Name
-                                <input type="text" id="input-login-fname" class="input-text text-sm px-0-75 py-0-25 mt-0-25" placeholder="Jane" />
+                                <input type="text" id="input-signup-fname" class="input-text text-sm px-0-75 py-0-25 mt-0-25" placeholder="Jane" />
                             </label>
                             <span class="text-message mt-0-5"></span>
                         </div>
@@ -103,16 +103,30 @@
                             <span class="text-message mt-0-5"></span>
                         </div>
                         <div class="input-group input-default mt-1-5 mb-1 mx-auto">
-                            <label class="text-label text-reg flex--col mx-auto text-sm" for="input-login-psd">
+                            <label class="text-label text-reg flex--col mx-auto text-sm" for="input-psd">
                                 Password
-                                <input type="password" id="input-login-psd" class="input-text px-0-75 py-0-25 mt-0-25" placeholder="********">
+                                <span class="password-input-toggler">
+                                    <input type="password" id="input-psd" class="input-text px-0-75 py-0-25 mt-0-25" placeholder="********" />
+                                    <button class="btn btn-icon icon-show-psd">
+                                        <span class="icon">
+                                            <i class="fas fa-eye"></i>
+                                        </span>
+                                    </button>
+                                </span>  
                             </label>
                             <span class="text-message mt-0-5"></span>
                         </div> 
                         <div class="input-group input-default mt-1-5 mb-1 mx-auto">
-                            <label class="text-label text-reg flex--col mx-auto text-sm" for="input-login-conf-psd">
-                                Password
-                                <input type="password" id="input-login-conf-psd" class="input-text px-0-75 py-0-25 mt-0-25" placeholder="********">
+                            <label class="text-label text-reg flex--col mx-auto text-sm" for="input-conf-psd">
+                                Confirm Password
+                                <span class="password-input-toggler">
+                                    <input type="password" id="input-conf-psd" class="input-text px-0-75 py-0-25 mt-0-25" placeholder="********">
+                                    <button class="btn btn-icon icon-show-psd">
+                                        <span class="icon">
+                                            <i class="fas fa-eye"></i>
+                                        </span>
+                                    </button>
+                                </span>
                             </label>
                             <span class="text-message mt-0-5"></span>
                         </div> 
