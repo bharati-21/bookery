@@ -36,16 +36,14 @@
 <br />
 
 <!-- Project Introduction -->
-## **📌 Introduction**
-
+## **Introduction**
 <p>
-    Bookery is an e-commerce store that satisfies your bookis needs and moods. 
+    Bookery is an e-commerce store that satisfies your bookish needs and moods. 
 </p>
-
 <br />
-
 Visit [Elixir UI Documentation Website](https://elixir-ui.netlify.app/) and buy your favorite books today! We serve all your book needs with simple, well strcutured website that offers books across 20+ genres. Check out the popular genres, hot picks of the month and get great deals with books delivered within 24 hours! Grab the best deal for your book. 
 
+<br />
 <!-- FEATURES -->
 ## **FEATURES (UI)**
 
@@ -63,6 +61,7 @@ Visit [Elixir UI Documentation Website](https://elixir-ui.netlify.app/) and buy 
   - Logout Page
 
 
+<br />
 <!-- BUILT WITH -->
 ## **Technology/ Languages Used**
 
@@ -70,7 +69,6 @@ Visit [Elixir UI Documentation Website](https://elixir-ui.netlify.app/) and buy 
 - CSS
 
 <br />
-
 ## **How to Run locally**:
 - To run this project locally, use the following command in your CLI:
 
@@ -79,7 +77,7 @@ Visit [Elixir UI Documentation Website](https://elixir-ui.netlify.app/) and buy 
 ```
 - Open your favorite code editor and run locally!
 
-
+<br />
 <!-- CONTRIBUTING -->
 ## **How to Contribute**
 
@@ -95,8 +93,6 @@ If you want to contribute or have ideas for this project, just fork the repo and
 6. Open and Create a PR
 
 <br />
-
-
 ## **Social Links**
 <!-- SOCIAL LINKS -->
 Let's connect and talk about development, music, books and much more 🌠! 
@@ -115,5 +111,3 @@ Check out my developer portfolio 🌐-
   <br />
   <a href="https://bharati-21.github.io/">👩‍💻 Bharati Subramanian</a>
 </p>
-
-
