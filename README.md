@@ -1,6 +1,6 @@
 <h1 align="center">
   <br />
-  <a href="https://elixir-ui.netlify.app/">
+  <a href="https://elixir-stores.netlify.app/">
       <img src="https://github.com/bharati-21/elixir-ui/blob/9e0021ca0eb8952f6bf408d9f2a119439ac359a2/logo-assets/elixir-logo.png" alt="Elixir UI" width="200"></a>
   <br />
   <br />
@@ -41,7 +41,7 @@
     Bookery is an e-commerce store that satisfies your bookish needs and moods. 
 </p>
 <br />
-Visit <a href="https://elixir-ui.netlify.app/">Elixir UI Documentation Website]</a> and buy your favorite books today! We serve all your book needs with simple, well strcutured website that offers books across 20+ genres. Check out the popular genres, hot picks of the month and get great deals with books delivered within 24 hours! Grab the best deal for your book. 
+Visit <a href="https://elixir-stores.netlify.app/">[bookery]</a> and buy your favorite books today! We serve all your book needs with simple, well strcutured website that offers books across 20+ genres. Check out the popular genres, hot picks of the month and get great deals with books delivered within 24 hours! Grab the best deal for your book. 
 
 <br />
 <br />
