@@ -52,15 +52,23 @@ Visit <a href="https://elixir-ui.netlify.app/">Elixir UI Documentation Website]<
 - Home page
   - Popular genre categories
   - Top picks
+    - Screenshot - ![Home page screenshot](https://user-images.githubusercontent.com/51514137/154982732-24468f1d-2845-416e-9339-38bcadd43012.png)
 - Product catalog
   - Filter sidebar
   - Product cards
+    - Screenshot - ![Product catalog screenshot](https://user-images.githubusercontent.com/51514137/154982838-95c3ab8e-c149-4d21-8895-8e4cd25ef04c.png)
 - Wishlist Page
+    - Screenshot - ![Wishlist page screenshot](https://user-images.githubusercontent.com/51514137/154982965-7d5d4c2f-352f-4157-ab7a-f5d0d39bed7f.png)
 - My Shelf/ Cart Page
+    - Screenshot -  ![Cart page screenshot](https://user-images.githubusercontent.com/51514137/154983104-b4825f63-33af-4e5b-a347-57abfa532bcf.png)
 - Authentication
   - Login Page
+    - Screenshot - ![Login page screenshot](https://user-images.githubusercontent.com/51514137/154983214-ffee27d7-aadd-4234-a5b7-81be16c00275.png)
   - Sign up Page
+    - Screenshot - ![Sign up page screenshot](https://user-images.githubusercontent.com/51514137/154983419-0451f557-4a30-481c-9f0f-6869fe131a28.png)
   - Logout Page
+    - Screenshot - ![Logout page screenshot](https://user-images.githubusercontent.com/51514137/154983490-a17ba449-1a8a-4e8a-b78f-ba73340148c4.png)
+
 
 <br />
 <br />
