@@ -112,3 +112,7 @@ body::-webkit-scrollbar-thumb {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
+.wishlist-main, .cart-main, .products-main {
+    min-height: 85vh;
+}
