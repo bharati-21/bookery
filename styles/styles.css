@@ -37,6 +37,21 @@ html {
     font-family: inherit;
 }
 
+body::-webkit-scrollbar {
+    width: var(--space-0-75);
+    height: var(--space-0-5);
+}
+      
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: var(--br-5);
+    -webkit-border-radius: var(--br-5);
+    -moz-border-radius: var(--br-5);
+    -ms-border-radius: var(--br-5);
+    -o-border-radius: var(--br-5);
+    -webkit-border-radius: var(--br-5);
+}
+    
 .display-none {
     display: none;
 }
