@@ -41,7 +41,7 @@
     Bookery is an e-commerce store that satisfies your bookish needs and moods. 
 </p>
 <br />
-Visit <a href="https://elixir-stores.netlify.app/">[bookery]</a> and buy your favorite books today! We serve all your book needs with simple, well strcutured website that offers books across 20+ genres. Check out the popular genres, hot picks of the month and get great deals with books delivered within 24 hours! Grab the best deal for your book. 
+Visit <a href="https://elixir-stores.netlify.app/">bookery</a> and buy your favorite books today! We serve all your book needs with simple, well strcutured website that offers books across 20+ genres. Check out the popular genres, hot picks of the month and get great deals with books delivered within 24 hours! Grab the best deal for your book. 
 
 <br />
 <br />
