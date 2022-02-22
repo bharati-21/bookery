@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/styles/styles.css">
     </head>
     <body>
-        <nav class="navbar flex-col flex-align-center flex-justify-center py-1 px-3">
+        <nav class="navbar navbar-open flex-col flex-align-center flex-justify-center py-1 px-3">
             <div class="navbar-desktop flex-row flex-align-center flex-justify-between">
                 <h3 class="logo brand-name">
                     <a href="/" class="btn btn-link btn-primary">
@@ -39,6 +39,13 @@
                     </button>
                 </div>
                 <div class="navbar-actions flex-row flex-justify-center flex-align-center">
+                    <div class="navbar-close-icon display-none">
+                        <button class="btn btn-navbar-close btn-primary btn-icon">
+                            <span class="icon">
+                                <i class="fas fa-times"></i>
+                            </span>
+                        </button>
+                    </div>
                     <a href="/pages/Authentication/logout/" class="btn btn-logout">
                         Logout
                     </a>
@@ -251,5 +258,6 @@
                 </div>
             </div>           
         </footer>
+        <script src="/scripts/hamburger.js"></script>
     </body>
 </html>

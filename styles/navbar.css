@@ -48,6 +48,11 @@
 
 .navbar-actions {
     gap: var(--space-1);
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -webkit-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -moz-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -ms-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -o-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .navbar-actions .icon {
@@ -71,13 +76,61 @@
         display: block;
     }
 
+    .navbar-open .navbar-close-icon {
+        top: var(--space-2);
+        display: inline-block;
+        position: absolute;
+        z-index: 6;
+        align-self: center;
+    }
+
+    .navbar-open .navbar-actions {
+        position: fixed;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+
+        transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -webkit-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -moz-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -ms-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        -o-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    }
+
     .navbar-actions {
         position: absolute;
-        transform: translateY(-1000%);
-        -webkit-transform: translateY(-1000%);
-        -moz-transform: translateY(-1000%);
-        -ms-transform: translateY(-1000%);
-        -o-transform: translateY(-1000%);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-3);
+        background-color: var(--primary-bg-color);
+        z-index: 5;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+
+    .navbar-actions .btn-icon .icon{
+        font-size: var(--text-xl);
+    }
+
+    .navbar-actions .btn-logout {
+        padding: var(--space-1);
+        line-height: unset;
+        font-size: var(--text-lg);
+    }
+
+    .navbar-actions .btn .badge-notification {
+        width: var(--space-2);
+        height: var(--space-2);
+        font-size: var(--text-sm);
     }
 }
 
