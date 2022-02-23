@@ -47,8 +47,9 @@ Visit <a href="https://elixir-stores.netlify.app/">bookery</a> and buy your favo
 <br />
 <!-- FEATURES -->
 
-## **FEATURES (UI)**
+## **FEATURES**
 
+UI consists of -
 - Home page
   - Popular genre categories
   - Top picks
